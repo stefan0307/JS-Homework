@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap');
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+  --font-display: 'Rubik Bubbles', cursive;
+  --font-text: 'Roboto', sans-serif;
+  --color-display: #2596be;
+  --color-text: #21130d;
+  --color-background: azure;
+  --color-table: green;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background: url("https://images.unsplash.com/photo-1653999291403-5cd1597b34ff?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80https://images.unsplash.com/photo-1653999291403-5cd1597b34ff?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+}
+
+h1{
+    font-family: var(--font-display);
+    font-size: 5rem;
+    color: var(--color-display);
+    background-color: var(--color-background);
+    display: flex;
+    justify-content: center;
+}
+
+p{
+    font-size: 2.5rem;
+    background-color: var(--color-background);
+    font-family: var(--font-text);
+    color: var(--color-text);
+    display: flex;
+    justify-content: center;
+}
+
+table{
+    font-size: 2rem;
+    font-family: var(--font-text);
+    border: 2px solid;
+    border-radius: 0.5rem;
+}
+
+tr{
+    background-color: var(--color-table);
+}
